@@ -42,7 +42,7 @@
 					<source src="./WEBM/For_Wes.webm" type="video/webm" />
 				</video>
 				<div class="poster hidden">
-					 <img src="./Snapshots/For_Wesf.jpg" alt="">
+					 <img src="./Snapshots/For_Wes.jpg" alt="">
 				</div>
 			</div>
 		</div>
@@ -60,14 +60,10 @@
 			
 			<div id="servicos" class="estilo_redundancia">
 				<h3>Servicos</h3>
-				<div class="servico1">
-					<img src="img/responsive.png" alt="Design de Sites">
-					<p>Fazemos sites com elegância e muita qualidade</p>
-				</div>
-				<div class="servico2">
-					<img src="img/hosting.png" alt="Hospedagem">
-					<p>Você pode hospedar seu site conosco, com qualidade, segurança, disponibilidade 24 horas sem quedas</p>
-				</div>
+				<img src="img/responsive.png" alt="Design de Sites">
+				<p>Fazemos sites com elegância e muita qualidade</p>
+				<img src="img/hosting.png" alt="Hospedagem">
+				<p>Você pode hospedar seu site conosco, com qualidade, segurança, disponibilidade 24 horas sem quedas</p>
 				
 			</div>			
 			

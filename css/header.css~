@@ -49,5 +49,5 @@
 
 #menu ul li a:hover {
 	background-color:#EDEDED;
-	height: 10px;
+	height: 0px;
 }
