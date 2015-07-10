@@ -1,7 +1,12 @@
 <html>
 	<head>
-		<title>clavier dev 2015</title>
+<<<<<<< HEAD
+		<title>Eu editei a parada</title>
 
+
+=======
+		<title>Clavier Dev</title>
+>>>>>>> upstream/master
 		<link rel="stylesheet" href="css/header.css" type="text/css"/>
 		<link rel="stylesheet" href="css/post.css" type="text/css"/>
 		<link rel="stylesheet" href="css/rodape.css" type="text/css"/>
