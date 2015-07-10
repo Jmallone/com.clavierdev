@@ -1,15 +1,14 @@
 .estilo_redundancia{
-	color: green;
+	padding: 43px;
+	padding-bottom: 3%;
+	padding-left: 9%;
+	padding-right: 9%;
 }
 
 #sobre{
   background-color: white;
   box-shadow: 5px 5px 20px #888888;
   text-align: center;
-  padding: 43px;
-  padding-bottom: 3%;
-  padding-left: 9%;
-  padding-right: 9%;
    height: 100%;
 }
 
@@ -25,10 +24,6 @@
   height: 339px;
   text-align: center;
   opacity: 0.8;
-  padding: 43px;
-  padding-bottom: 3%;
-  padding-left: 9%;
-  padding-right: 9%;
 	
 }
 
@@ -36,10 +31,6 @@
   background-color: white;
    height: 100%;
   text-align: center;
-   padding: 43px;
-  padding-bottom: 3%;
-  padding-left: 9%;
-  padding-right: 9%;
 }
 
 
@@ -47,10 +38,6 @@
 	background-color: #88CEE8;
 	 height: 100%;
 	text-align: center;
-    padding: 43px;
-	padding-bottom: 3%;
-	padding-left: 9%;
-	padding-right: 9%;
 }
 
 #contato{
@@ -58,9 +45,5 @@ border-bottom: 1px solid #1A1E22;
   background-color: #E88469;
   height: 100%;
   text-align: center;
-   padding: 43px;
-  padding-bottom: 3%;
-  padding-left: 9%;
-  padding-right: 9%;
 	
 }
