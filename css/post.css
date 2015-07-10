@@ -1,0 +1,66 @@
+.estilo_redundancia{
+	color: green;
+}
+
+#sobre{
+  background-color: white;
+  box-shadow: 5px 5px 20px #888888;
+  text-align: center;
+  padding: 43px;
+  padding-bottom: 3%;
+  padding-left: 9%;
+  padding-right: 9%;
+   height: 100%;
+}
+
+#post h3{
+	font-size: 4em;
+}
+
+#equipe{
+  background-image: url("../img/missao_img.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 339px;
+  text-align: center;
+  opacity: 0.8;
+  padding: 43px;
+  padding-bottom: 3%;
+  padding-left: 9%;
+  padding-right: 9%;
+	
+}
+
+#clientes{
+  background-color: white;
+   height: 100%;
+  text-align: center;
+   padding: 43px;
+  padding-bottom: 3%;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+
+#servicos{
+	background-color: #88CEE8;
+	 height: 100%;
+	text-align: center;
+    padding: 43px;
+	padding-bottom: 3%;
+	padding-left: 9%;
+	padding-right: 9%;
+}
+
+#contato{
+border-bottom: 1px solid #1A1E22;
+  background-color: #E88469;
+  height: 100%;
+  text-align: center;
+   padding: 43px;
+  padding-bottom: 3%;
+  padding-left: 9%;
+  padding-right: 9%;
+	
+}
