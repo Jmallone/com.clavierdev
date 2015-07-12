@@ -20,7 +20,7 @@
 }
 
 #menu{
-	position: absolute;
+	p1osition: absolute;
 	right: 20px;
 	top: 4px;
 }
@@ -49,5 +49,5 @@
 
 #menu ul li a:hover {
 	background-color:#EDEDED;
-	height: 0px;
+	height: 10px;
 }
