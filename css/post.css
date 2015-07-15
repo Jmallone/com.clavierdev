@@ -17,14 +17,13 @@
 }
 
 #equipe{
-  background-image: url("../img/missao_img.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  text-align: center;
-  height: 339px;
-  text-align: center;
-  opacity: 0.8;
-	
+	background-image: url("../img/missao_img.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 339px;
+	text-align: center;
+	opacity: 0.8;
 }
 
 #clientes{
@@ -33,6 +32,27 @@
   text-align: center;
 }
 
+#clientes .sites{
+	font-size: 1em;
+}
+
+#clientes .sites img{
+	width: 50%;
+	border: 6px solid;
+	border-radius: 29px;
+}
+
+#clientes .sites img:hover{
+	opacity: 0.8;
+}
+
+#clientes .sites .titulo{
+  background-color: rgb(243, 243, 243);
+  font-size: 3em;
+  border-radius: 26px;
+  width: 76%;
+  margin-left: 13%;
+}
 
 #servicos{
 	background-color: #88CEE8;
@@ -51,9 +71,8 @@
 }
 
 #contato{
-border-bottom: 1px solid #1A1E22;
-  background-color: #E88469;
-  height: 100%;
-  text-align: center;
-	
+	border-bottom: 1px solid #1A1E22;
+	background-color: #E88469;
+	height: 100%;
+	text-align: center;
 }
