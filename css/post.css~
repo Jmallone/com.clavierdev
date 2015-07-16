@@ -7,24 +7,29 @@
 
 #sobre{
   background-color: white;
-  box-shadow: 5px 5px 20px #888888;
+  -moz-box-shadow: 5px 5px 20px #888888;
+  -webkit-box-shadow: 5px 5px 20px #888888;
+  -box-shadow: 5px 5px 20px #888888;
   text-align: center;
    height: 100%;
 }
-
-#post h3{
+#post h1{
 	font-size: 4em;
 }
 
+#post h2{
+	font-size: 3em;
+	margin-top: 0px;
+}
+
 #equipe{
-  background-image: url("../img/missao_img.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  text-align: center;
-  height: 339px;
-  text-align: center;
-  opacity: 0.8;
-	
+	background-image: url("../img/missao_img.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 339px;
+	text-align: center;
+	opacity: 0.8;
 }
 
 #clientes{
@@ -33,13 +38,39 @@
   text-align: center;
 }
 
+#clientes .sites{
+	font-size: 1em;
+}
+
+#clientes .sites img{
+	width: 50%;
+	border: 6px solid;
+	border-radius: 29px;
+	-moz-border-radius: 29px;
+	-webkit-border-radius: 29px;
+}
+
+#clientes .sites img:hover{
+	opacity: 0.8;
+}
+
+#clientes .sites .titulo{
+  background-color: rgb(243, 243, 243);
+  font-size: 3em;
+  border-radius: 26px;
+  -moz-border-radius: 26px;
+  -webkit-border-radius: 26px;
+  width: 76%;
+  margin-left: 13%;
+}
 
 #servicos{
-
-	background-color: #88CEE8;
-	 height: 400px;
+	background-color: #7D56A3;
+	height: 400px;
 	text-align: center;
-	margin-bottom: 10px;
+}
+#servicos {
+	color: white;
 }
 .servico1{
 	float: left;
@@ -51,11 +82,39 @@
 	width: 30%;
 	height: 0 auto;
 }
+.botao{
+	border: solid 1px black;
+	width: 100%;
+	float: left;
+}
+#botao1{
+	float: left;
+	margin-left: 70px;	
+	
+}
+#botao1, #botao2{
+	border-radius: 5px;
+	padding: 0px 10px 0px 10px;
+	background: #59C755;
+}
+
+#botao1:hover{
+	background: #67E863;
+	color: black;
+}
+#botao1 p a, #botao2 p a{
+	text-decoration: none;
+	color: black;
+
+}
+#botao2{
+float: right;
+	margin-right: 55px;
+}
 
 #contato{
-border-bottom: 1px solid #1A1E22;
-  background-color: #E88469;
-  height: 100%;
-  text-align: center;
-	
+	border-bottom: 1px solid #1A1E22;
+	background-color: #E88469;
+	height: 100%;
+	text-align: center;
 }
