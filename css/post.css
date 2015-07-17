@@ -7,13 +7,19 @@
 
 #sobre{
   background-color: white;
-  box-shadow: 5px 5px 20px #888888;
+  -moz-box-shadow: 5px 5px 20px #888888;
+  -webkit-box-shadow: 5px 5px 20px #888888;
+  -box-shadow: 5px 5px 20px #888888;
   text-align: center;
    height: 100%;
 }
-
-#post h3{
+#post h1{
 	font-size: 4em;
+}
+
+#post h2{
+	font-size: 3em;
+	margin-top: 0px;
 }
 
 #equipe{
@@ -40,6 +46,8 @@
 	width: 50%;
 	border: 6px solid;
 	border-radius: 29px;
+	-moz-border-radius: 29px;
+	-webkit-border-radius: 29px;
 }
 
 #clientes .sites img:hover{
@@ -50,14 +58,19 @@
   background-color: rgb(243, 243, 243);
   font-size: 3em;
   border-radius: 26px;
+  -moz-border-radius: 26px;
+  -webkit-border-radius: 26px;
   width: 76%;
   margin-left: 13%;
 }
 
 #servicos{
-	background-color: #88CEE8;
+	background-color: #7D56A3;
 	height: 400px;
 	text-align: center;
+}
+#servicos {
+	color: white;
 }
 .servico1{
 	float: left;
@@ -68,6 +81,34 @@
 	float: right;
 	width: 30%;
 	height: 0 auto;
+}
+.botao{
+	width: 100%;
+	float: left;
+}
+#botao1{
+	float: left;
+	margin-left: 70px;	
+	
+}
+#botao1, #botao2{
+	border-radius: 5px;
+	padding: 0px 10px 0px 10px;
+	background: #59C755;
+}
+
+#botao1:hover{
+	background: #67E863;
+	color: black;
+}
+#botao1 p a, #botao2 p a{
+	text-decoration: none;
+	color: black;
+
+}
+#botao2{
+float: right;
+	margin-right: 55px;
 }
 
 #contato{
