@@ -38,31 +38,12 @@
   text-align: center;
 }
 
-#clientes .sites{
-	font-size: 1em;
-}
+#clientes #imagens{
+  width: 58%;
+  font-size: 1em;
+  margin-left: 21%;
+  }
 
-#clientes .sites img{
-	width: 50%;
-	border: 6px solid;
-	border-radius: 29px;
-	-moz-border-radius: 29px;
-	-webkit-border-radius: 29px;
-}
-
-#clientes .sites img:hover{
-	opacity: 0.8;
-}
-
-#clientes .sites .titulo{
-  background-color: rgb(243, 243, 243);
-  font-size: 3em;
-  border-radius: 26px;
-  -moz-border-radius: 26px;
-  -webkit-border-radius: 26px;
-  width: 76%;
-  margin-left: 13%;
-}
 
 #servicos{
 	background-color: #7D56A3;
