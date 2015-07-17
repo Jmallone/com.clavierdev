@@ -88,7 +88,7 @@
 }
 #botao1{
 	float: left;
-	margin-left: 70px;	
+	margin-left: 10%;	
 	
 }
 #botao1, #botao2{
@@ -97,7 +97,7 @@
 	background: #59C755;
 }
 
-#botao1:hover{
+#botao1:hover, #botao2:hover{
 	background: #67E863;
 	color: black;
 }
@@ -108,7 +108,7 @@
 }
 #botao2{
 float: right;
-	margin-right: 55px;
+	margin-right: 10%;
 }
 
 #contato{
