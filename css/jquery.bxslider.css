@@ -119,6 +119,11 @@
 	/* text-indent: -9999px; */
 	text-decoration: none;
 	z-index: 9999;
+	color:rgb(128, 60, 195);
+}
+
+.bx-wrapper .bx-controls-direction a:active {
+	color: rgb(89, 199, 85);
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {
