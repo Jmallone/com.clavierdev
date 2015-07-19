@@ -72,19 +72,15 @@
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-	left: -33%;
-	width: 0;
-	height: 0;
-	/*
-	border-style: solid;
-	border-width: 63px 118px 63px 0;
-	border-color: transparent #858585 transparent transparent;*/
-	border-radius: 50%;
-	width: 150px;
-	height:190px;
-	font-size: 9em;
-	padding-left: 5%;
-	font-family: 'Open Sans', sans-serif;
+  left: -33%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  width: 180px;
+  height: 190px;
+  font-size: 9em;
+  /* padding-left: 5%; */
+  font-family: 'Open Sans', sans-serif;
 }
 
 .bx-wrapper .bx-next {
@@ -112,14 +108,14 @@
 }
 
 .bx-wrapper .bx-controls-direction a {
-	position: absolute;
-	top: 34%;
-	margin-top: -16px;
-	outline: 0;
-	/* text-indent: -9999px; */
-	text-decoration: none;
-	z-index: 9999;
-	color:rgb(128, 60, 195);
+  position: absolute;
+  top: 34%;
+  /* margin-top: -16px; */
+  outline: 0;
+  /* text-indent: -9999px; */
+  text-decoration: none;
+  z-index: 9999;
+  color: rgb(128, 60, 195);
 }
 
 .bx-wrapper .bx-controls-direction a:active {
