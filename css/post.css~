@@ -1,8 +1,9 @@
 .estilo_redundancia{
-	padding: 43px;
-	padding-bottom: 3%;
-	padding-left: 9%;
-	padding-right: 9%;
+  padding: 46px;
+  padding-top: 9%;
+  padding-bottom: 6%;
+  padding-left: 9%;
+  padding-right: 9%;
 }
 
 #sobre{
@@ -38,31 +39,12 @@
   text-align: center;
 }
 
-#clientes .sites{
-	font-size: 1em;
-}
+#clientes #imagens{
+  width: 58%;
+  font-size: 1em;
+  margin-left: 21%;
+  }
 
-#clientes .sites img{
-	width: 50%;
-	border: 6px solid;
-	border-radius: 29px;
-	-moz-border-radius: 29px;
-	-webkit-border-radius: 29px;
-}
-
-#clientes .sites img:hover{
-	opacity: 0.8;
-}
-
-#clientes .sites .titulo{
-  background-color: rgb(243, 243, 243);
-  font-size: 3em;
-  border-radius: 26px;
-  -moz-border-radius: 26px;
-  -webkit-border-radius: 26px;
-  width: 76%;
-  margin-left: 13%;
-}
 
 #servicos{
 	background-color: #7D56A3;
@@ -83,13 +65,12 @@
 	height: 0 auto;
 }
 .botao{
-	border: solid 1px black;
 	width: 100%;
 	float: left;
 }
 #botao1{
 	float: left;
-	margin-left: 70px;	
+	margin-left: 8.4%;	
 	
 }
 #botao1, #botao2{
@@ -98,7 +79,7 @@
 	background: #59C755;
 }
 
-#botao1:hover{
+#botao1:hover, #botao2:hover{
 	background: #67E863;
 	color: black;
 }
@@ -109,7 +90,7 @@
 }
 #botao2{
 float: right;
-	margin-right: 55px;
+	margin-right: 7.8%;
 }
 
 #contato{
