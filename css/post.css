@@ -16,6 +16,14 @@
   text-align: center;
   height: 500px;
 }
+
+.panelsobre{
+  background-color: rgba(255, 255, 255, 0.99);
+  border-radius: 16px;
+  padding: 14%;
+  padding-top: 6%;
+}
+
 #sobre img{
 	position: absolute;
 	left: 0;
