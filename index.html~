@@ -55,11 +55,16 @@
 		</div>
 		
 			<div id="sobre" class="estilo_redundancia">
+			
+				<div class="panelsobre">
 				<h2>Sobre nos:</h2>
-				<div class="alien"><p>Somos uma empresa que visa não simplesmente fazer sites, queremos fazer verdadeiros projetos de web design, queremos buscar a melhor integração entre o usuario do site e o dono do site.</p></div>
-				<div class="p1"><p>Buscamos proporcionar sempre a melhor identidade visual para o site que fazemos.</p></div>
-				<div class="p2"><p>Queremos que o usuário se sinta a vontade no site, com design atraente e boa UX.</p></div>
-			</div>
+				<img src="img/web.jpg">
+					<div class="alien"><p>Somos uma empresa que visa não simplesmente fazer sites, queremos fazer verdadeiros projetos de web design, queremos buscar a melhor integração entre o usuario do site e o dono do site.</p></div>
+					<div class="p1"><p>Buscamos proporcionar sempre a melhor identidade visual para o site que fazemos.</p></div>
+					<div class="p2"><p>Queremos que o usuário se sinta a vontade no site, com design atraente e boa UX.</p></div>
+					<div class="limpa">
+				</div>
+			</div><div class="limpa">
 			
 			<div id="servicos" class="estilo_redundancia">
 				<h2>Servicos</h2>
@@ -105,8 +110,23 @@
 				feugiat aliquam, erat mi volutpat arcu, malesuada faucibus neque est in libero. Nam accumsan neque nulla, a blandit enim dapibus a. 
 				Donec tincidunt elementum varius. Donec eu leo tortor. Morbi dignissim aliquet urna in hendrerit. Integer facilisis leo a felis viverra, 
 			</div>
+			
 			<div id="contato" class="estilo_redundancia">
 				<h2>Contato</h2>
+				
+				<form action="demo_form.asp">
+				  <b>Nome: <br><input type="text" width="50px" name="nome" style="
+							width: 371px;
+							height: 27px;
+						"><br><p>
+				  Email: <br><input type="text" name="email" style="
+							width: 371px;
+							height: 27px;
+						"><br><p>
+				  Mensagem:</b> <br><textarea rows="10" cols="50"></textarea><br><p>
+				  <input class="botaoformulario" type="submit" >
+				</form> 
+				<div class="info"><h1>OLÁ, EM QUE PODEMOS AJUDAR?</h1><p><h3>Dicas, Sugestões, Orçamentos fique a vontade de mandar.</h3></div>
 			</div>
 		</div>
 		<div id="rodape">
