@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
 		<title>ClavierDev</title>
 
 		<link rel="stylesheet" href="css/header.css" type="text/css"/>
@@ -25,10 +26,13 @@
 	</head>
 	
 	<body>
-		<div id="header">
+		<header>
 			<img src="./img/logo.png"/>
-			<nav id="menu">
-				<ul>
+			<input type="checkbox" id="control-nav"/>
+			<label for="control-nav" class="control-nav"></label>
+			<laber for="control-nav" class="control-nav-close"></label>
+			<nav id="menu" class="fR">
+				<ul class="l2">
 					<li class="nav1"><a class="nav1" href="#">Home</a></li>
 					<li class="nav2"><a class="scroll" href="#sobre">Sobre</a></li>
 					<li class="nav3"><a class="scroll" href="#servicos">Servicos</a></li>
@@ -38,7 +42,7 @@
 					<hr/>
 				</ul>
 			</nav>
-		</div>
+		</header>
 		
 		<div id="post">
 			<div class="homepage-hero-module">
