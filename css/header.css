@@ -51,6 +51,12 @@
         -ms-transform: translate(100%, 0);
         transform: translate(100%, 0);
       }
+		#menu{
+			height: 800%;
+			z-index: 101;
+			right: -6px;
+		}
+
     }
     
         #control-nav:checked ~ .control-nav-close {
@@ -64,11 +70,15 @@
       -ms-transform: translate(0, 0);
       transform: translate(0, 0);
     }
+
  body{
-	margin : 0px;
-	padding : 0px;
-	background-color: #eaeef1;
-	font-family: 'Lato', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../Snapshots/For_Wes.jpg");
+	font-family: "Lato",sans-serif;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 

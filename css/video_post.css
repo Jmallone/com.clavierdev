@@ -24,9 +24,10 @@
 .video-container .poster img {
     width: 100%;
     bottom: 0;
+    position: relative; /*Aqui era o erro de sumir a home, estava position, tentativa 2*/
 }
 .video-container .filter {
-  z-index: 100;
+  z-index: 1;
   position: absolute;
   background: rgba(0, 0, 0, 0.4);
   width: 100%;
