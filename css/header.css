@@ -76,7 +76,31 @@
 			font-size: 277% !important;
 			margin-top: -1%;
 		}
+		.bx-wrapper .bx-next{
+			right: -6% !important;
+			width: 1% !important;
+			height: 1% !important;
+		}
 		
+		
+		.bx-wrapper .bx-prev {
+			background-green: green !important;
+			left: -48% !important;
+			width: 1% !important;
+			height: 1% !important;
+		}
+		
+		#clientes{
+			padding-bottom: 21% !important;
+		}
+		
+		.bx-wrapper .bx-controls-direction a{
+			top: 69% !important;
+		}
+		
+		#botao1{
+			width: 116% !important;
+		}
 
     }
     
