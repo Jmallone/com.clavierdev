@@ -136,7 +136,7 @@
 
     }
 	
-    //aqui termina o media query
+    /*aqui termina o media query*/
 
 		input#control-nav { /*parada milagrosa*/
 		  visibility: hidden;
@@ -185,6 +185,11 @@ header{
 header img {
 	
 	height: 65px;
+}
+
+    
+.filter img{
+	width: 30%;
 }
 
 #menu{
