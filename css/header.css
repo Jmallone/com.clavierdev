@@ -132,6 +132,14 @@
 			display: none;
 		}
 		
+		.filter img {
+			display: none;
+		}
+		
+		header img {
+			display: inline !important;
+		}
+		
 	
 
     }
@@ -184,7 +192,8 @@ header{
 
 header img {
 	
-	height: 65px;
+	width: 30%;
+	display: none;
 }
 
     
