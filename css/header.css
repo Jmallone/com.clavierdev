@@ -107,7 +107,8 @@
 		
 		#menu{
 			height: 250px;
-			width: 70%;			
+			width: 70%;
+		background-color: #66E863;
 		}
 		#menu ul li{
 			width: 30px !important;
@@ -219,7 +220,6 @@ header img {
 	right: 0px;
 	top: 4px;
 	margin: 0 auto;
-	background-color: #66E863;
 }
 
 #menu ul {
