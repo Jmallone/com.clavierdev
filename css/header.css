@@ -140,6 +140,17 @@
 			display: inline !important;
 		}
 		
+			.video-container .filter {	
+				top: 45% !important;
+				text-align: center;
+				font-size: 0.8em;
+				color: white;
+				height: 0 auto;
+				padding: 2% 0 0 0 !important;
+			}
+			.video-container .filter h1{
+				font-size: 2em !important;
+			}
 	
 
     }
@@ -173,7 +184,7 @@
  body{
 	margin: 0px;
 	padding: 0px;
-	background-image: url("../Snapshots/For_Wes.jpg");
+	/*background-image: url("../Snapshots/For_Wes.jpg");*/
 	font-family: "Lato",sans-serif;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -188,22 +199,19 @@ header{
 	float: left;
 	position: fixed;
 	z-index: 2;
-	height: 65px;
+	height: 68px;
 }
 
 header img {
 	
-<<<<<<< HEAD
-	height: 60px;
-=======
-	width: 30%;
+	height: 100%;
+	width: 0 auto;
 	display: none;
 }
 
     
 .filter img{
 	width: 30%;
->>>>>>> upstream/master
 }
 
 #menu{
