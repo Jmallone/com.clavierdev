@@ -132,11 +132,19 @@
 			display: none;
 		}
 		
+		.filter img {
+			display: none;
+		}
+		
+		header img {
+			display: inline !important;
+		}
+		
 	
 
     }
 	
-    //aqui termina o media query
+    /*aqui termina o media query*/
 
 		input#control-nav { /*parada milagrosa*/
 		  visibility: hidden;
@@ -185,7 +193,17 @@ header{
 
 header img {
 	
+<<<<<<< HEAD
 	height: 60px;
+=======
+	width: 30%;
+	display: none;
+}
+
+    
+.filter img{
+	width: 30%;
+>>>>>>> upstream/master
 }
 
 #menu{
