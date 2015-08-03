@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="css/rodape.css" type="text/css"/>
 		<link rel="stylesheet" href="css/responsivo.css" type="text/css"/>
 		<link rel="stylesheet" href="css/video_post.css" type="text/css"/>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'></head>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
 
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -27,15 +27,15 @@
 	
 	<body>
 		<header>
-			<img src="./img/logo.png"/>
-			<input type="checkbox" id="control-nav"/>
+			<img src="./img/logo1.png"/>
+			<input type="checkbox" id="control-nav" style="display : none"/>
 			<label for="control-nav" class="control-nav"></label>
-			<laber for="control-nav" class="control-nav-close"></label>
-			<nav class="fR">
+			<label for="control-nav" class="control-nav-close"></label>
+			<nav id="menu" class="fR">
 				<ul class="l2">
-					<li class="nav1"><a class="nav1" href="#">Home</a></li>
+					<li class="nav1"><a class="scroll" href="#post">Home</a></li>
 					<li class="nav2"><a class="scroll" href="#sobre">Sobre</a></li>
-					<li class="nav3"><a class="scroll" href="#servicos">Servicos</a></li>
+					<li class="nav3"><a class="scroll" href="#servicos">Serviços</a></li>
 					<li class="nav4"><a class="scroll"  href="#clientes">Portfólio</a></li>
 					<li class="nav5"><a class="scroll" href="#equipe">Equipe</a></li>
 					<li class="nav6"><a class="scroll" href="#contato">Contato</a></li>
@@ -47,7 +47,7 @@
 		<div id="post">
 			<div class="homepage-hero-module">
 			<div class="video-container">
-				<div class="filter"><h1>Clavier Dev</h1><h4>Seu site de Desenvolvimento Web </h4></div>
+				<div class="filter"><img src="./img/logo1.png" alt="Logo da ClavierDev"><br><h1>Clavier Dev</h1><p>Seu site de desenvolvimento web</p></div>
 				<video autoplay loop class="fillWidth">
 					<source src="./M$/For_Wes4.mp4" type="video/mp4" />
 					<source src="./WEM/For_Wes4.webm" type="video/webm" />
@@ -71,25 +71,26 @@
 			</div>
 			
 			<div id="servicos" class="estilo_redundancia">
-				<h2>Servicos</h2>
+				<h2>Serviços</h2>
 				<div class="servico1">
 					<img src="img/responsive.png" alt="Design de Sites">
-					<p>Fazemos sites com elegância e muita qualidade</p>
+					<p>Fazemos sites com elegância e muita qualidade, com um atendimento de ponta e especializado.</p>
+						<div id="botao2">
+							<p><a href="#">Web Designer</a></p>
+						</div>
 				</div>
 				<div class="servico2">
 					<img src="img/hosting.png" alt="Hospedagem">
-					<p>Você pode hospedar seu site conosco, com qualidade, segurança, disponibilidade 24 horas sem quedas</p>
+					<p>Você pode hospedar seu site conosco, com qualidade, segurança, disponibilidade 24 horas sem quedas.</p>
+						<div id="botao1">
+							<p><a href="#">Hospedagem</a></p>
+						</div>
 				</div>
-				<div class="botao">
-					<div id="botao1">
-						<p><a href="#">Hospedagem</a></p>
-					</div>
-					<div id="botao2">
-						<p><a href="#">Web Designer</a></p>
-					</div>
-				</div>
+				<div class="clear"></div>
 				
-			</div>			
+			</div>
+			
+			
 			
 			<div id="clientes" class="estilo_redundancia">
 				<h2>Portifolio</h2>
@@ -120,17 +121,22 @@
 				
 				<form action="demo_form.asp">
 				  <b>Nome: <br><input type="text" width="50px" name="nome" style="
-							width: 371px;
+							width: 85%;
 							height: 27px;
 						"><br><p>
 				  Email: <br><input type="text" name="email" style="
-							width: 371px;
+							width: 85%;
 							height: 27px;
 						"><br><p>
-				  Mensagem:</b> <br><textarea rows="10" cols="50"></textarea><br><p>
+				  Mensagem:</b> <br><textarea style="
+							width: 85%;
+							height: 360%;
+						"></textarea><br><p>
 				  <input class="botaoformulario" type="submit" >
 				</form> 
 				<div class="info"><h1>OLÁ, EM QUE PODEMOS AJUDAR?</h1><p><h3>Dicas, Sugestões, Orçamentos fique a vontade de mandar.</h3></div>
+				
+				<div class="clear"></div>
 			</div>
 		</div>
 		<div id="rodape">

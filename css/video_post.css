@@ -1,4 +1,8 @@
-
+@media screen and (min-width: 767px){
+	.video-container .filter p{
+		display: none;
+	}
+}
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -27,15 +31,24 @@
     position: relative; /*Aqui era o erro de sumir a home, estava position, tentativa 2*/
 }
 .video-container .filter {
-  z-index: 1;
-  position: absolute;
-  background: rgba(0, 0, 0, 0.4);
-  width: 100%;
-  top: 30%;
-  text-align: center;
-  font-size: 1em;
-  color: white;
+	z-index: 1;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	top: 35%;
+	text-align: center;
+	font-size: 0.8em;
+	color: white;
+	padding: 0px;
+	
 }
+.video-container .filter img, h1{
+	margin: 2px;
+}
+.video-container .filter p{
+		font-size: 1.5em;
+	}
+
 .video-container video {
     position: absolute;
     z-index: 0;
