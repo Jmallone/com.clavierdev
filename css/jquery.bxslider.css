@@ -96,14 +96,7 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
-.bx-wrapper .bx-prev:hover {
-	background-color: rgb(244, 244, 244);
-	
-}
 
-.bx-wrapper .bx-next:hover {
-	background-color: rgb(244, 244, 244);
-}
 
 .bx-wrapper .bx-controls-direction a {
   position: absolute;
