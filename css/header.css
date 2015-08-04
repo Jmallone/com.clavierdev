@@ -74,10 +74,10 @@
 			border-radius: 0px !important;
 		}
 		
-		#post h1{
+		/*#post h1{ dando conflito de tamanho
 			font-size: 277% !important;
 			margin-top: -1%;
-		}
+		}*/
 		.bx-wrapper .bx-next{
 			right: -6% !important;
 			width: 1% !important;
@@ -108,7 +108,7 @@
 		#menu{
 			height: 250px;
 			width: 70%;
-		background-color: #66E863;
+			background-color: #66E863;
 		}
 		#menu ul li{
 			width: 30px !important;
@@ -152,7 +152,12 @@
 			.video-container .filter h1{
 				font-size: 2em !important;
 			}
-	
+	.info h1{
+		font-size: 1.5em !important;
+	}
+	.info h3{
+		font-size: 0.9em !important;
+	}
 
     }
 	
@@ -220,6 +225,7 @@ header img {
 	right: 0px;
 	top: 4px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 #menu ul {

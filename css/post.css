@@ -50,9 +50,9 @@
 	float: right;
 	width: 30%;
 }
-#post h1{
+/*#post h1{ dando conflito de tamanho
 	font-size: 4em;
-}
+}*/
 
 #post h2{
 	font-size: 3em;
@@ -156,13 +156,14 @@ div.clear { clear: both; }
 }
 
 .info{
-	float: right;
-	margin-top: -6%;
-	margin-right: -6%;
-	font-size: 0.6em;
+	margin-top: 6%;
+	
+}
+.info h1{
+	font-size: 2.2em;
 }
 .info h3{
 	color: #FFFFFF;
-	font-size: 2em;
+	font-size: 1.5em;
 	
 }
