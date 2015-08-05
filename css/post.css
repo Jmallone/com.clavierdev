@@ -1,6 +1,24 @@
+@media screen and (max-width: 608px) {
+	.part1{
+		float: none !important;
+		margin-left: 33% !important;
+		width: 160px !important;
+		margin-bottom: 2%;
+	}
+	.part2{
+		float: none !important;
+		margin-left: 33% !important;
+		width: 160px !important;
+		margin-bottom: 2%;
+	}
+	.part3{
+		float: none !important;
+		margin-left: 33% !important;
+		width: 160px !important;
+	}
+}
 .estilo_redundancia{
-  padding: 46px;
-  padding-top: 9%;
+  padding-top: 6%;
   padding-bottom: 6%;
   padding-left: 9%;
   padding-right: 9%;
@@ -20,7 +38,6 @@
 	overflow: hidden;
   background-color: rgba(255, 255, 255, 0.96);
   border-radius: 16px;  
-  paddig-top: 6%;
   padding: 6% 10% 10% 10%;
 }
 #sobre img{
@@ -65,16 +82,16 @@
 	text-align: center;
 	background-color: aquamarine;
 	opacity: 0.8;
+	overflow-y: hidden;
 }
 
 
 
 .dodeca, .dodeca div {
-  magin:  auto;
   transform-origin: 50% 50%;
   overflow: hidden;
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
 }
 .dodeca {
   transform: rotate(120deg);
@@ -88,40 +105,36 @@
 .dode2 img{
   margin: -40px 10px 10px -75px;
   height: 0 auto;
-	width: 320px;
+	width: 250px;
 }
 
 .partgeral {	
-	width: 100%;
+	width: 0 auto;
   	padding: 0px 0px 0px;
+	
 }
 .part1{
 	float: left;
 	width: 25%;
 }
 .part2 {
+	float: left;
 	width: 25%;
-	margin-left: 35%;
+	margin-left: 12.5%;
 }
 .part3 {
+	float:right;
 	width: 25%;
-	margin-left: 70%;
-	margin-top: -38.5%
+	margin-left: 5%;
 }
-.descricao{
-	margin-top:1%;
-	width: 100%;
-	height: 0 auto;
-	border: solid 1px black;
-	overflow: hidden;
-	padding: 1%;
+.icon p{
+	text-align: center;
 }
-.descricao p{
+.icon img{
+	background: no-repeat;
+	width: 20%;
 	
 }
-
-
-
 
 /* Fim da equipe*/
 
