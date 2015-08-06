@@ -186,12 +186,17 @@
 		
 		
     }
-
+body p{
+	font-family: 'Arvo', serif;
+}
+body h1, h2 ,h3, h4, h5, h6{
+	font-family: 'Abel', sans-serif;
+}
  body{
 	margin: 0px;
 	padding: 0px;
 	/*background-image: url("../Snapshots/For_Wes.jpg");*/
-	font-family: "Lato",sans-serif;
+	
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
