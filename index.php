@@ -30,7 +30,7 @@
 	
 	<body>
 		<header>
-			<img src="./img/logo1.png"/>
+			<a href="index.php"><img src="./img/logo1.png"/></a>
 			<input type="checkbox" id="control-nav" style="display : none"/>
 			<label for="control-nav" class="control-nav"></label>
 			<label for="control-nav" class="control-nav-close"></label>
@@ -50,7 +50,7 @@
 		<div id="post">
 			<div class="homepage-hero-module">
 			<div class="video-container">
-				<div class="filter"><img src="./img/logo1.png" alt="Logo da ClavierDev"><h1>Clavier Dev</h1><p>Seu site de desenvolvimento web</p></div>
+				<div class="filter"><a href="index.php"><img src="./img/logo1.png" alt="Logo da ClavierDev"></a><h1>Clavier Dev</h1><p>Seu site de desenvolvimento web</p></div>
 				<video autoplay loop class="fillWidth">
 					<source src="./M$/For_Wes4.mp4" type="video/mp4" />
 					<source src="./WEM/For_Wes4.webm" type="video/webm" />
@@ -173,24 +173,81 @@
 			
 			
 			<div id="contato" class="estilo_redundancia">
+			
+
+
 				<h2>Contato</h2>
 				
-				<form action="insere.php" method="post"><br><p>
+				<?php
+				if (isset($_POST['enviar'])) {
+					//code email here
+					$nome = $_POST['nome'];
+					$email = $_POST['email'];
+					$mensagem = $_POST['mensagem'];
+					// Inclui o arquivo class.phpmailer.php localizado na pasta phpmailer
+					require_once("phpmailer/class.phpmailer.php");
+					include 'phpmailer/PHPMailerAutoload.php';
+					// Inicia a classe PHPMailer
+					$mail = new PHPMailer();
+					// Define os dados do servidor e tipo de conexão
+					// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					$mail->IsSMTP(); // Define que a mensagem será SMTP
+					$mail->Host = "host.muxdigital.com.br"; // Endereço do servidor SMTP
+					$mail->SMTPAuth = true; // Usa autenticação SMTP? (opcional)
+					$mail->Username = 'contato@clavierdev.com'; // Usuário do servidor SMTP
+					$mail->Password = 'clavier2015'; // Senha do servidor SMTP
+					// Define o remetente
+					// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					$mail->From = $email; // Seu e-mail
+					$mail->FromName = $email; // Seu nome
+					// Define os destinatário(s)
+					// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					$mail->AddAddress('contato@clavierdev.com', 'ClavierDev Contato');
+					//$mail->AddAddress('ciclano@site.net');
+					//$mail->AddCC('ciclano@site.net', 'Ciclano'); // Copia
+					//$mail->AddBCC('fulano@dominio.com.br', 'Fulano da Silva'); // Cópia Oculta
+					// Define os dados técnicos da Mensagem
+					// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					$mail->IsHTML(true); // Define que o e-mail será enviado como HTML
+					$mail->CharSet = 'utf-8'; // Charset da mensagem (opcional)
+					// Define a mensagem (Texto e Assunto)
+					// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					$mail->Subject  = "Enviado pelo Formulario"; // Assunto da mensagem
+					$mail->Body = $mensagem;
+					$mail->AltBody = ""; 
+					// Define os anexos (opcional)
+					// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+					//$mail->AddAttachment("c:/temp/documento.pdf", "novo_nome.pdf");  // Insere um anexo
+					// Envia o e-mail
+					$enviado = $mail->Send();
+					// Limpa os destinatários e os anexos
+					$mail->ClearAllRecipients();
+					$mail->ClearAttachments();
+					// Exibe uma mensagem de resultado
+					if ($enviado) {
+					  echo "<h1>E-mail enviado com sucesso!</h1>";
+					} else {
+					  echo "Não foi possível enviar o e-mail.";
+					  echo "<b>Informações do erro:</b> " . $mail->ErrorInfo;
+					}
+				}
+				?>
+				<form action="index.php#contato" method="POST"><br><p>
 				  <b>Nome: <br><input type="text" width="50px" name="nome" style="
 							width: 85%;
 							height: 27px;
 						"><br><p>
-				  Email: <br><input type="text" name="mensagem" name="email" style="
+				  Email: <br><input type="text" name="email" style="
 							width: 85%;
 							height: 27px;
 						"><br><p>
-				  Mensagem:</b> <br><textarea style="
+				  Mensagem:</b> <br><textarea name="mensagem" style="
 							width: 85%;
 							height: 360%;
 						"></textarea><br><p>
-				  <input class="botaoformulario" type="submit" >
+				  <input class="botaoformulario" name="enviar" value="enviar" type="submit" >
 				</form> 
-				<div class="info"><h1>OLÁ, EM QUE PODEMOS AJUDAR?</h1><p><h3>Fique a vontade de mandar suas Dicas, Sugestões, Orçamentos.</h3></div>
+				<div class="info"><h1>OLÁ, EM QUE PODEMOS AJUDAR?</h1><p><h3>Fique a vontade de mandar suas Dicas, Sugestões e Orçamentos.</h3></div>
 				
 				<div class="clear"></div>
 			</div>
