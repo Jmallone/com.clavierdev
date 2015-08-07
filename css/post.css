@@ -1,20 +1,33 @@
 @media screen and (max-width: 608px) {
+	.partgeral{		
+		position: relative;
+		left: 50%;
+		margin-left: -80px;
+		width: 160px;
+	}
 	.part1{
 		float: none !important;
-		margin-left: 33% !important;
+		margin-left: 0% !important;		
 		width: 160px !important;
 		margin-bottom: 2%;
 	}
 	.part2{
 		float: none !important;
-		margin-left: 33% !important;
+		margin-left: 0% !important;
 		width: 160px !important;
 		margin-bottom: 2%;
 	}
 	.part3{
 		float: none !important;
-		margin-left: 33% !important;
+		margin-left: 0% !important;
 		width: 160px !important;
+	}	
+	.estilo_redundancia{
+		padding-top: 4% !important;
+		padding-bottom: 4% !important;
+		padding-left: 0% !important;
+		padding-right: 0% !important;
+
 	}
 }
 .estilo_redundancia{

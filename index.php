@@ -244,7 +244,7 @@
 						"><br><p>
 				  Mensagem:</b> <br><textarea name="mensagem" style="
 							width: 85%;
-							height: 360%;
+							height: 85px;
 						"></textarea><br><p>
 				  <input class="botaoformulario" name="enviar" value="enviar" type="submit" >
 				</form> 
