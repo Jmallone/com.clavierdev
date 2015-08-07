@@ -79,15 +79,15 @@
 			margin-top: -1%;
 		}*/
 		.bx-wrapper .bx-next{
-			right: -6% !important;
+			margin-right: 32% !important;
 			width: 1% !important;
 			height: 1% !important;
 		}
 		
 		
 		.bx-wrapper .bx-prev {
-			background-green: green !important;
-			left: -48% !important;
+			
+			left: -30% !important;
 			width: 1% !important;
 			height: 1% !important;
 		}
