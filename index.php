@@ -112,62 +112,70 @@
 			<div id="equipe" class="estilo_redundancia">
 			<h2>Equipe</h2>
 					<div class="partgeral">
-						<div class="part1">
-							<div class="dodeca">
-							  <div class="dode1">
-								<div class="dode2">
-								  <img src="http://cdn.meme.am/images/300x/2854361.jpg" alt="arte contemporânea" />
+						
+							<div class="part1">
+								<div class="partimg">
+									<div class="dodeca">
+									  <div class="dode1">
+										<div class="dode2">
+										  <img src="https://scontent-gru1-1.xx.fbcdn.net/hphotos-xap1/v/l/t1.0-9/625689_391262730939932_795208602_n.jpg?oh=aa25154d1fa70755ba7c67279eeb08cf&oe=5683E5BF" alt="Michel Gomes" />
+										</div>
+									  </div>
+									</div>
+									<div id="descricao1">
+										<p>Michel Jécksom</p>
+										<div class="icon">
+											<a href="#"><img src="img/behance.png"></a>
+											<a href="#"><img src="img/linkedin.png"></a>
+											<a href="#"><img src="img/github.png"></a>
+										</div>
+									</div>
 								</div>
-							  </div>
 							</div>
-							<div id="descricao1">
-								<p>Mal conheço e já considero pakas</p>
-								<div class="icon">
-									<a href="#"><img src="img/behance.png"></a>
-									<a href="#"><img src="img/linkedin.png"></a>
-									<a href="#"><img src="img/github.png"></a>
-								</div>
-							</div>
-						</div>
+						
 					
 					
 				
-					<div class="part2">
-						<div class="dodeca">
-						  <div class="dode1">
-							<div class="dode2">
-							  <img src="http://theballerlifestyle.com/wp-content/uploads/2015/07/Sasha-Grey-is-the-best-person-to-talk-about-too-_229c4139d703b6374d5df3631cf288c5.jpg" alt="Magnifica" />
-							</div>
-						  </div>
-						</div>
-						<div class="descricao2">
-							<p>O lucas é fã</p>
-							<div class="icon">
-									<a href="#"><img src="img/behance.png"></a>
-									<a href="#"><img src="img/linkedin.png"></a>
-									<a href="#"><img src="img/github.png"></a>
+							<div class="part2">
+								<div class="partimg">
+									<div class="dodeca">
+									  <div class="dode1">
+										<div class="dode2">
+										  <img src="http://theballerlifestyle.com/wp-content/uploads/2015/07/Sasha-Grey-is-the-best-person-to-talk-about-too-_229c4139d703b6374d5df3631cf288c5.jpg" alt="Magnifica" />
+										</div>
+									  </div>
+									</div>
+									<div class="descricao2">
+										<p>O lucas é fã</p>
+										<div class="icon">
+												<a href="#"><img src="img/behance.png"></a>
+												<a href="#"><img src="img/linkedin.png"></a>
+												<a href="#"><img src="img/github.png"></a>
+											</div>
+									</div>
 								</div>
-						</div>
-					</div>
-						
-					<div class="part3">
-						<div class="dodeca">
-						  <div class="dode1">
-							<div class="dode2">
-							  <img src="http://www4.pictures.zimbio.com/gi/Weinstein+Alliance+Pictures+Party+Miral+Hosted+4qYYb9aC5YRl.jpg" alt="" />
 							</div>
-						  </div>
-						</div>
-						<div class="descricao3">
-							<p>Hmmmmm...</p>
-							<div class="icon">
-									<a href="#"><img src="img/behance.png"></a>
-									<a href="#"><img src="img/linkedin.png"></a>
-									<a href="#"><img src="img/github.png"></a>
+
+							<div class="part3">
+								<div class="partimg">
+									<div class="dodeca">
+									  <div class="dode1">
+										<div class="dode2">
+										  <img src="http://www4.pictures.zimbio.com/gi/Weinstein+Alliance+Pictures+Party+Miral+Hosted+4qYYb9aC5YRl.jpg" alt="" />
+										</div>
+									  </div>
+									</div>
+									<div class="descricao3">
+										<p>Hmmmmm...</p>
+										<div class="icon">
+												<a href="#"><img src="img/behance.png"></a>
+												<a href="#"><img src="img/linkedin.png"></a>
+												<a href="#"><img src="img/github.png"></a>
+											</div>
+									</div>
 								</div>
-						</div>
+							</div>
 					</div>
-				</div>
 					
 			</div>
 			

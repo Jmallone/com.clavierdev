@@ -22,7 +22,7 @@
 		margin-left: 0% !important;
 		width: 160px !important;
 	}	
-	.estilo_redundancia{
+	#equipe{
 		padding-top: 4% !important;
 		padding-bottom: 4% !important;
 		padding-left: 0% !important;
@@ -125,6 +125,10 @@
 	width: 0 auto;
   	padding: 0px 0px 0px;
 	
+}
+.partimg{
+	width: 160px;
+	margin-left: 0;
 }
 .part1{
 	float: left;
