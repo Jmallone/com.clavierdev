@@ -123,19 +123,16 @@
 									  </div>
 									</div>
 									<div id="descricao1">
-										<p>Michel Jécksom</p>
+										<p>Michel Gomes</p>
 										<div class="icon">
-											<a href="#"><img src="img/behance.png"></a>
-											<a href="#"><img src="img/linkedin.png"></a>
-											<a href="#"><img src="img/github.png"></a>
+											<!-- <a href="#"><img src="img/behance.png"></a>
+											<a href="#"><img src="img/linkedin.png"></a> -->
+											<a href="https://github.com/jmallone"><img src="img/github.png"></a>
 										</div>
 									</div>
 								</div>
 							</div>
-						
-					
-					
-				
+							<p>
 							<div class="part2">
 								<div class="partimg">
 									<div class="dodeca">
@@ -146,16 +143,16 @@
 									  </div>
 									</div>
 									<div class="descricao2">
-										<p>Rafael Bastião</p>
+										<p>Rafael Bastiansch</p>
 										<div class="icon">
-												<a href="#"><img src="img/behance.png"></a>
-												<a href="#"><img src="img/linkedin.png"></a>
-												<a href="#"><img src="img/github.png"></a>
+												<!-- <a href="#"><img src="img/behance.png"></a> -->
+												<a href="https://www.linkedin.com/in/rafaelbastiansch"><img src="img/linkedin.png"></a>
+												<a href="https://github.com/rbastiansch"><img src="img/github.png"></a>
 											</div>
 									</div>
 								</div>
 							</div>
-
+							<p>
 							<div class="part3">
 								<div class="partimg">
 									<div class="dodeca">
@@ -166,11 +163,12 @@
 									  </div>
 									</div>
 									<div class="descricao3">
-										<p>William Parrudo</p>
+										<p>William Parra</p>
 										<div class="icon">
-												<a href="#"><img src="img/behance.png"></a>
+												<a href="https://www.facebook.com/william.pereiraparra"><img src="img/facebook.png"></a>
+												<!--<a href="#"><img src="img/behance.png"></a>
 												<a href="#"><img src="img/linkedin.png"></a>
-												<a href="#"><img src="img/github.png"></a>
+												<a href="#"><img src="img/github.png"></a> -->
 											</div>
 									</div>
 								</div>
