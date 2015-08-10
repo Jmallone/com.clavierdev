@@ -141,12 +141,12 @@
 									<div class="dodeca">
 									  <div class="dode1">
 										<div class="dode2">
-										  <img src="http://theballerlifestyle.com/wp-content/uploads/2015/07/Sasha-Grey-is-the-best-person-to-talk-about-too-_229c4139d703b6374d5df3631cf288c5.jpg" alt="Magnifica" />
+										  <img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/1235959_226520970837983_1870703498_n.jpg?oh=edc1e075dc8b61e9fe85421fb115a4b5&oe=567D79FC&__gda__=1451097171_61640be8f46b1a296f3c337526c56a57" alt="Rafael" />
 										</div>
 									  </div>
 									</div>
 									<div class="descricao2">
-										<p>O lucas é fã</p>
+										<p>Rafael Bastião</p>
 										<div class="icon">
 												<a href="#"><img src="img/behance.png"></a>
 												<a href="#"><img src="img/linkedin.png"></a>
@@ -161,12 +161,12 @@
 									<div class="dodeca">
 									  <div class="dode1">
 										<div class="dode2">
-										  <img src="http://www4.pictures.zimbio.com/gi/Weinstein+Alliance+Pictures+Party+Miral+Hosted+4qYYb9aC5YRl.jpg" alt="" />
+										  <img src="https://scontent-gru1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/10296574_662205570512669_7805549108539542368_n.jpg?oh=462c84f70ccda7a09557cbf247d41cb7&oe=563E2544" alt="" />
 										</div>
 									  </div>
 									</div>
 									<div class="descricao3">
-										<p>Hmmmmm...</p>
+										<p>William Parrudo</p>
 										<div class="icon">
 												<a href="#"><img src="img/behance.png"></a>
 												<a href="#"><img src="img/linkedin.png"></a>
@@ -254,7 +254,7 @@
 							width: 85%;
 							height: 85px;
 						"></textarea><br><p>
-				  <input class="botaoformulario" name="enviar" value="enviar" type="submit" >
+				  <input class="botaoformulario" name="enviar" value="Enviar" type="submit" >
 				</form> 
 				<div class="info"><h1>OLÁ, EM QUE PODEMOS AJUDAR?</h1><p><h3>Fique a vontade de mandar suas Dicas, Sugestões e Orçamentos.</h3></div>
 				
