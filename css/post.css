@@ -42,9 +42,9 @@
 	position:relative;
 	overflow:hidden;
 	-moz-box-shadow: 5px 5px 20px #888888;
-  -webkit-box-shadow: 5px 5px 20px #888888;
-  -box-shadow: 5px 5px 20px #888888;
-  text-align: center;
+	-webkit-box-shadow: 5px 5px 20px #888888;
+	-box-shadow: 5px 5px 20px #888888;
+	text-align: center;
 }
 
 .panelsobre{
@@ -101,24 +101,61 @@
 
 
 .dodeca, .dodeca div {
-  transform-origin: 50% 50%;
-  overflow: hidden;
-  width: 160px;
-  height: 160px;
+  	-moz-transform-origin: 50% 50%;
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	overflow: hidden;
+	width: 160px;
+	height: 160px;
 }
 .dodeca {
-  transform: rotate(120deg);
+  	-moz-transform: rotate(120deg);
+	-webkit-transform: rotate(120deg);
+	transform: rotate(120deg);
 }
 .dode1 {
-  transform: rotate(-60deg);
+  	transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-webkit-transform: rotate(-60deg);
 }
 .dode2 {
-  transform: rotate(-60deg);
+  	transform: rotate(-60deg);
+	-moz-transform: rotate(-60deg);
+	-webkit-transform: rotate(-60deg);
 }
 .dode2 img{
-  margin: -40px 10px 10px -75px;
-  height: 0 auto;
+	margin: -40px 10px 10px -75px;
+	height: 0 auto;
 	width: 250px;
+	transition: all 1s;
+	-moz-transition:all 1s;
+	-webkit-transition: all 1s;
+	opacity: 0.9;
+	transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	filter: grayscale(0.1);
+	-moz-filter: grayscale(0.1);
+	-webkit-filter: grayscale(0.1);
+	filter: brightness(1.5);
+	-moz-filter: brightness(1.5);
+	-webkit-filter: brightness(1.5);
+}
+.dode2 img:hover{
+	transition: all 1s;
+	-moz-transition:all 1s;
+	-webkit-transition: all 1s;
+	opacity: 1;
+	transform: scale(1);
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	filter: brightness(1);
+	-moz-filter: brightness(1);
+	-webkit-filter: brightness(1);
+	
 }
 
 .partgeral {	
@@ -133,6 +170,10 @@
 .part1{
 	float: left;
 	width: 25%;
+}
+.part1 img{
+	margin-left: -15px;
+	margin-top: -5px;
 }
 .part2 {
 	float: left;
@@ -173,28 +214,30 @@ div.clear { clear: both; }
 #servicos{
 	background-color: #7D56A3;
 	text-align: center;
+	position: relative;
+	overflow: hidden;
 }
 #servicos {
 	color: white;
 }
 .servico1{
 	float: left;
-	width: 30%;
+	width: 45%;
 	height: 0 auto;
-	margin-bottom: 10px;
+	margin-bottom: 40px;
 }
 .servico2{
 	float: right;
-	width: 30%;
+	width: 45%;
 	height: 0 auto;
-	margin-bottom: 10px;
+	margin-bottom: 40px;
 }
 #botao1{
 	
 }
 #botao1, #botao2{
 	border-radius: 5px;
-	padding: 4%;
+	padding: 3%;
 	background: #59C755;
 }
 
@@ -208,6 +251,40 @@ div.clear { clear: both; }
 
 }
 #botao2{
+
+}
+#escada {
+	margin-top: 42%;
+	width: 80%;
+	position: absolute;
+	bottom: 10px;
+}
+#escada #botao3{
+	position: relative;
+	float: left;
+	margin-left: 2.1%;
+}
+#escada #botao4{
+	position: relative;
+	float: right;
+	margin-right: 0%;
+}
+#escada #botao3, #botao4{
+	width: 41%;
+	border-radius: 5px;
+	text-align: center;
+	background: #59C755;
+	font-size: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#botao3:hover, #botao4:hover{
+	background: #67E863;
+	color: black;
+}
+#botao3 p a, #botao4 p a{
+	text-decoration: none;
+	color: black;
 
 }
 
@@ -232,6 +309,7 @@ div.clear { clear: both; }
 	font-family: inherit;
 	padding-left: 2%;
 	border-color: rgba(255, 255, 255, 0);
+	margin-bottom: 3%;
 }
 
 #contato form input:hover{

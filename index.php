@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
@@ -20,17 +20,48 @@
 		<script src="js/scroll.js"></script>
 		
 		<script src="js/jquery.bxslider.min.js"></script>
-		<!-- bxSlider CSS file -->
 		<link href="css/jquery.bxslider.css" rel="stylesheet" />
 		
 		<script src="js/galeria.js" type="text/javascript"></script>
+		
+		<!--começa o slide-->
+		
+		<link href="css/movingboxes.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+		<link href="css/movingboxes-ie.css" rel="stylesheet" media="screen" />
+		<![endif]-->
+
+		<!-- Required script -->
+		<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+		<script src="js/jquery.movingboxes.js"></script>
+
+		<!-- Demo only -->
+		<link href="css/demo.css" rel="stylesheet">
+
+				
+		<script>
+			$(function(){
+
+				$('#slider').movingBoxes({
+					/* width and panelWidth options deprecated, but still work to keep the plugin backwards compatible
+					width: 500,
+					panelWidth: 0.5,
+					*/
+					startPanel   : 1,      // start with this panel
+					wrap         : false,  // if true, the panel will infinitely loop
+					buildNav     : true,   // if true, navigation links will be added
+					navFormatter : function(){ return "&#9679;"; } // function which returns the navigation text for each panel
+				});
+
+			});
+		</script>
 		
 		
 	</head>
 	
 	<body>
 		<header>
-			<a href="index.php"><img src="./img/logo1.png"/></a>
+			<a href="index.php"><img src="./img/logo1.png" alt="Logo da empresa"/></a>
 			<input type="checkbox" id="control-nav" style="display : none"/>
 			<label for="control-nav" class="control-nav"></label>
 			<label for="control-nav" class="control-nav-close"></label>
@@ -61,57 +92,68 @@
 			</div>
 		</div>
 		
-			<div id="sobre" class="estilo_redundancia">
+			<section id="sobre" class="estilo_redundancia">
 			
 				<div class="panelsobre">
-				<h2>Sobre nos:</h2>
+				<h2>Sobre nós:</h2>
 				<img src="img/web.jpg">
 					<div class="alien"><p>Somos uma empresa que visa não simplesmente fazer sites, queremos fazer verdadeiros projetos de web design, queremos buscar a melhor integração entre o usuario do site e o dono do site.</p></div>
 					<div class="p1"><p>Buscamos proporcionar sempre a melhor identidade visual para o site que fazemos.</p></div>
 					<div class="p2"><p>Queremos que o usuário se sinta a vontade no site, com design atraente e boa UX.</p></div>
 					
 				</div>
-			</div>
+			</section>
 			
-			<div id="servicos" class="estilo_redundancia">
+			<section id="servicos" class="estilo_redundancia">
 				<h2>Serviços</h2>
 				<div class="servico1">
 					<img src="img/responsive.png" alt="Design de Sites">
 					<p>Fazemos sites com elegância e muita qualidade, com um atendimento de ponta e especializado.</p>
-						<div id="botao2">
-							<p><a href="#contato">Web Designer</a></p>
-						</div>
+						<!--<div id="botao1">
+							<p><a href="#contato">Sites</a></p>
+						</div>-->
 				</div>
 				<div class="servico2">
 					<img src="img/hosting.png" alt="Hospedagem">
-					<p>Você pode hospedar seu site conosco, com qualidade, segurança, disponibilidade 24 horas sem quedas.</p>
-						<div id="botao1">
+					<p>Você pode hospedar seu site conosco, com qualidade, segurança, disponibilidade 24 horas.</p>
+						<!--<div id="botao2">
+							<p><a href="#contato" >Hospedagem</a></p>
+						</div>-->
+				</div>
+				<div id="escada">
+						<div id="botao3">
+							<p><a href="#contato">Sites</a></p>
+						</div>
+					
+						<div id="botao4">
 							<p><a href="#contato" >Hospedagem</a></p>
 						</div>
 				</div>
 				<div class="clear"></div>
 				
-			</div>
+			</section>		
 			
 			
+			<section id="clientes" class="estilo_redundancia">
+				<h2>Portfólio</h2>				
+					<ul id="slider">
+						<li>
+							<a href="http://www.caetanoeotavioimoveis.com.br/" target="blank"><img src="img/caetano.png" alt="site imobiliaria"></a>
+							<h2 style="font-size: 2em">Imobiliaria</h2>
+							<p>Imobiliaria Caetano e Otavio</p>
+						</li>
+						<li>
+							<a href="http://umudieseltrr.com.br/" target="blank"><img src="img/umudiesel.png" alt="site umudiesel"></a>
+							<h2 style="font-size: 2em">Umudiesel TRR</h2>
+							<p>Umudiesel - Transporte</p>
+						</li>
+					</ul><!-- end Slider #1 -->				
+			</section>
 			
-			<div id="clientes" class="estilo_redundancia">
-				<h2>Portifolio</h2>
-				
-	<div id="imagens">
-		<ul class="bxslider">
-		  <li>SITE 1<img src="img/imgsite.png" /></li>
-		  <li>SITE 2<img src="img/imgsite.png" /></li>
-		  <li>SITE 3<img src="img/imgsite.png" /></li>
-		  <li>SITE 4<img src="img/imgsite.png" /></li>
-		</ul>
-	</div>	
-				
-			</div>
 			
-			<div id="equipe" class="estilo_redundancia">
+			<section id="equipe" class="estilo_redundancia">
 			<h2>Equipe</h2>
-					<div class="partgeral">
+					<section class="partgeral">
 						
 							<div class="part1">
 								<div class="partimg">
@@ -127,7 +169,7 @@
 										<div class="icon">
 											<!-- <a href="#"><img src="img/behance.png"></a>
 											<a href="#"><img src="img/linkedin.png"></a> -->
-											<a href="https://github.com/jmallone"><img src="img/github.png"></a>
+											<a href="https://github.com/jmallone" target="blank"><img src="img/github.png"></a>
 										</div>
 									</div>
 								</div>
@@ -146,8 +188,8 @@
 										<p>Rafael Bastiansch</p>
 										<div class="icon">
 												<!-- <a href="#"><img src="img/behance.png"></a> -->
-												<a href="https://www.linkedin.com/in/rafaelbastiansch"><img src="img/linkedin.png"></a>
-												<a href="https://github.com/rbastiansch"><img src="img/github.png"></a>
+												<a href="https://www.linkedin.com/in/rafaelbastiansch" target="blank"><img src="img/linkedin.png"></a>
+												<a href="https://github.com/rbastiansch" target="blank"><img src="img/github.png"></a>
 											</div>
 									</div>
 								</div>
@@ -165,7 +207,7 @@
 									<div class="descricao3">
 										<p>William Parra</p>
 										<div class="icon">
-												<a href="https://www.facebook.com/william.pereiraparra"><img src="img/facebook.png"></a>
+												<a href="https://www.facebook.com/william.pereiraparra" target="blank"><img src="img/facebook.png"></a>
 												<!--<a href="#"><img src="img/behance.png"></a>
 												<a href="#"><img src="img/linkedin.png"></a>
 												<a href="#"><img src="img/github.png"></a> -->
@@ -173,16 +215,13 @@
 									</div>
 								</div>
 							</div>
-					</div>
+					</section>
 					
-			</div>
+			</section>
 			
 			
-			<div id="contato" class="estilo_redundancia">
-			
-
-
-				<h2>Contato</h2>
+			<section id="contato" class="estilo_redundancia">
+			<h2>Contato</h2>
 
 				<?php
 					if (isset($_POST['enviar'])) {
@@ -257,12 +296,12 @@
 				<div class="info"><h1>OLÁ, EM QUE PODEMOS AJUDAR?</h1><p><h3>Fique a vontade de mandar suas Dicas, Sugestões e Orçamentos.</h3></div>
 				
 				<div class="clear"></div>
-			</div>
+			</section>
+			
 		</div>
-		<div id="rodape">
-
+		
+		<section id="rodape">
 			<p>contato@clavierdev.com</p>
-
-		</div>
+		</section>
 	</body>
 </html>
