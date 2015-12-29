@@ -95,7 +95,7 @@
 			<section id="sobre" class="estilo_redundancia">
 			
 				<div class="panelsobre">
-				<h2>Sobre nós:</h2>
+				<h2>Sobre nós:)</h2>
 				<img src="img/web.jpg">
 					<div class="alien"><p>Somos uma empresa que visa não simplesmente fazer sites, queremos fazer verdadeiros projetos de web design, queremos buscar a melhor integração entre o usuario do site e o dono do site.</p></div>
 					<div class="p1"><p>Buscamos proporcionar sempre a melhor identidade visual para o site que fazemos.</p></div>
