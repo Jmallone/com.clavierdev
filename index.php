@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
-		<title>ClavierDev</title>
+		<title>ClavierDev teste</title>
 		
 		<link href='http://fonts.googleapis.com/css?family=Arvo:400italic,400' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
