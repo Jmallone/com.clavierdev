@@ -1,28 +1,4 @@
 @media screen and (max-width: 608px) {
-	/*.partgeral{		
-		position: relative;
-		left: 50%;
-		margin-left: -80px;
-		width: 160px;
-	}
-	.part1{
-		float: none !important;
-		margin-left: 0% !important;		
-		width: 160px !important;
-		margin-bottom: 2%;
-	}
-	.part2{
-		float: none !important;
-		margin-left: 0% !important;
-		width: 160px !important;
-		margin-bottom: 2%;
-	}
-	.part3{
-		float: none !important;
-		margin-left: 0% !important;
-		width: 160px !important;
-	}
-	*/
 	#equipe{
 		padding-top: 4% !important;
 		padding-bottom: 4% !important;
@@ -167,34 +143,6 @@
 	margin-top: 1em;
 }
 
-/*.partgeral {	
-	width: 0 auto;
-  	padding: 0px 0px 0px;
-	
-}
-.partimg{
-	width: 160px;
-	margin-left: 0;
-}
-.part1{
-	float: left;
-	width: 25%;
-}
-.part1 img{
-	margin-left: -15px;
-	margin-top: -5px;
-}
-.part2 {
-	float: left;
-	width: 25%;
-	margin-left: 12.5%;
-}
-.part3 {
-	float:right;
-	width: 25%;
-	margin-left: 5%;
-}
-*/
 .icon p{
 	text-align: center;
 }
@@ -230,17 +178,14 @@ div.clear { clear: both; }
 #servicos {
 	color: white;
 }
-.servico1{
-	float: left;
-	width: 45%;
-	height: 0 auto;
-	margin-bottom: 40px;
+.flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
-.servico2{
-	float: right;
+.servico{
 	width: 45%;
-	height: 0 auto;
-	margin-bottom: 40px;
+	margin-bottom: 3em;
 }
 #botao1{
 	
