@@ -106,19 +106,21 @@
       
       <section id="servicos" class="estilo_redundancia">
         <h2>Serviços</h2>
-        <div class="servico1">
-          <img src="img/responsive.png" alt="Design de Sites">
-          <p>Fazemos sites com elegância e muita qualidade, com um atendimento de ponta e especializado.</p>
-            <!--<div id="botao1">
-              <p><a href="#contato">Sites</a></p>
-            </div>-->
-        </div>
-        <div class="servico2">
-          <img src="img/hosting.png" alt="Hospedagem">
-          <p>Você pode hospedar seu site conosco, com qualidade, segurança, disponibilidade 24 horas.</p>
-            <!--<div id="botao2">
-              <p><a href="#contato" >Hospedagem</a></p>
-            </div>-->
+        <div class="flex">
+          <div class="servico">
+            <img src="img/responsive.png" alt="Design de Sites">
+            <p>Fazemos sites com elegância e muita qualidade, com um atendimento de ponta e especializado.</p>
+              <!--<div id="botao1">
+                <p><a href="#contato">Sites</a></p>
+              </div>-->
+          </div>
+          <div class="servico">
+            <img src="img/hosting.png" alt="Hospedagem">
+            <p>Você pode hospedar seu site conosco, com qualidade, segurança, disponibilidade 24 horas.</p>
+              <!--<div id="botao2">
+                <p><a href="#contato" >Hospedagem</a></p>
+              </div>-->
+          </div>
         </div>
         <div id="escada">
             <div id="botao3">
